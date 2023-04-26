@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const fileupload = require('express-fileupload')
 const cors = require('cors')
-const PORT = process.env.PORT || 6010
+const PORT = process.env.PORT || 4000
 // ------------------------------------------------------------------------------------------------------------
 // temp check 
 app.set("view engine", "ejs")
