@@ -12,7 +12,7 @@
     "backend",
     "server"
   ],
-  "author": "Mayur Argade",
+  "author": "Rushikesh Shinde",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
