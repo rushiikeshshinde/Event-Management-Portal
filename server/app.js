@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const fileupload = require('express-fileupload')
 const cors = require('cors')
-const PORT = 4000
+// const PORT = 4000
 // ------------------------------------------------------------------------------------------------------------
 // temp check 
 app.set("view engine", "ejs")
@@ -40,7 +40,10 @@ app.use('/api/v1', product)
 
 // test route
 app.get('/signuptest', (req, res) => {
-    res.render('signuptest')
+    res.status(200).json({
+        success: true,
+        greeting: "testing api knowledge",
+    });
 })
 
 // exports app 
