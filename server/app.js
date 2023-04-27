@@ -40,10 +40,7 @@ app.use('/api/v1', product)
 
 // test route
 app.get('/signuptest', (req, res) => {
-    res.status(200).json({
-        success: true,
-        greeting: "testing api knowledge",
-    });
+    res.render('signuptest')
 })
 
 // exports app 
